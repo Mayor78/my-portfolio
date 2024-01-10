@@ -34,19 +34,7 @@ a:hover{
     width: 18px;
     height: 25px;
 }
-
-footer{
-             width: 95%;
-            height: 100%;
-            background-color: rgb(4, 4, 59);
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            padding: 35px;
-            overflow: auto;
-            position: relative;
-            
-}
+ 
 
     a{
         margin-left: 18px;
