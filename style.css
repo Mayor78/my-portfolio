@@ -31,17 +31,33 @@ a:hover{
     text-decoration: underline;
     font-weight: bold;
     color: purple;
+    width: 18px;
+    height: 25px;
 }
 
 footer{
-    width: 100%;
+             width: 95%;
             height: 100%;
-            background-color: paleturquoise;
+            background-color: rgb(4, 4, 59);
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-around;
+            padding: 35px;
+            overflow: auto;
+            
 }
 
+    a{
+        margin-left: 18px;
+        color: white;
+}
+
+    .first h1{
+        display: flex;
+        color: whitesmoke;
+        text-align: 18px;
+
+    }
 p{
     font-size: large;
     color: blue;
@@ -72,4 +88,13 @@ p{
         }
         th:hover{
             color: tomato;
+        }
+        .second h2{
+            color: black;
+        }
+
+        .first ul{
+            margin-left: 25px;
+            padding: 20px;
+            margin-inline-start: 30px;
         }
